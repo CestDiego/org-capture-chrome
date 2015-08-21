@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+
+    "name": "Ultimate Org Capture",
+    "description": "Taking notes while searching the web has never been easier. You'll need aditional modification of you emacs/OS setup. Read more here: http://cestdiego.github.io/blog/2015/08/19/org-protocol/",
+    "version": "1.0",
+
+    "homepage_url": "https://github.com/cestdiego/org-capture-chrome",
+
+    "permissions": ["activeTab"],
+
+    "background": {
+        "persistent": true,
+        "scripts": ["main.js"]
+    },
+
+    "commands": {
+        "link": {
+            "suggested_key": { "default": "Ctrl+Shift+L" },
+            "description": "test description"
+        }
+    },
+
+    "icons": {
+        "128" : "org-mode-unicorn-logo-large.png"
+    },
+
+    "browser_action": {
+        "default_icon": "org-mode-unicorn-logo-large.png",
+        "default_popup": "popup.html"
+    }
+}

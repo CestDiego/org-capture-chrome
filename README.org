@@ -1,0 +1,10 @@
+#+TITLE: Ultimate Org Capture Extension
+
+The goal of this extension is to make the bridge between org and your browser, so
+that you can integrate your life with org.
+
+In the future I'd love for this extension to even recognize how certain pages
+should be bookmarked (example for [[http://oremacs.com/2015/01/07/org-protocol-1/][youtube videos]]) . Also I wrote a [[http://cestdiego.github.io/blog/2015/08/19/org-protocol/][blog post]] on
+how to make this work with your Emacs. Currently it only stores links, provided
+that you have the Emacs part ready as stated in the blog post you shouldn't have
+any trouble.
