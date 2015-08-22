@@ -8,3 +8,14 @@ should be bookmarked (example for [[http://oremacs.com/2015/01/07/org-protocol-1
 how to make this work with your Emacs. Currently it only stores links, provided
 that you have the Emacs part ready as stated in the blog post you shouldn't have
 any trouble.
+
+** Installation
+Clone the repo
+
+#+begin_src shell
+  git clone https://github.com/CestDiego/org-capture-chrome
+#+end_src
+
+This folder is the full extension, install it with the steps provided in the
+answer [[http://superuser.com/questions/247651/how-does-one-install-an-extension-for-chrome-browser-from-the-local-file-system][here]]
+
