@@ -49,7 +49,7 @@ var capture = function(config){
 
     console.log("Preview of org-protocol URI: ", uri);
 
-    return uri;
+    location.href = uri;
 };
 
 capture(config);

@@ -8,9 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             function () {
                 chrome.tabs.executeScript(
                     {file: 'capturing.js'},
-                    (function (url_array) {
-                        chrome.tabs.update({url : url_array[0]});
-                    })
+                    (function (url_array) {})
                 )
             });
     }, false);
